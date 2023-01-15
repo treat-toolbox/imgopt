@@ -24,7 +24,7 @@ allow_any_origin=true
 url_deny_list=["https://google.com/search", "http://localhost", "https://example.com/", "http://127.0.0.1", "https://arweave.net/000000000000000000000000000000000000000",  "https://arweave.net/%20#"]
 
 #Smol kv https://github.com/mpwsh/smol-kv
-kvstore_uri = "http://127.0.0.1:5050"
+#kvstore_uri = "http://127.0.0.1:5050"
 #Number of retries when downloading an asset
 max_retries = 5
 
